@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Editor and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
